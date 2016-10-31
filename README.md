@@ -1,22 +1,20 @@
-Copyright 2013 - The CyanogenMod Project
+==============
+The Android Open Source Project - Galaxy S4
+--------------
 
-Device configuration for Galaxy S4 (Qualcomm Variants)
-=====================================
+# Copyright (C) 2016 The JDCTeam
 
-Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Quad-core 1.9 GHz Krait 300
-CHIPSET | Qualcomm APQ8064T Snapdragon 600
-GPU     | Adreno 320
-Memory  | 2GB RAM
-Shipped Android Version | 4.4.2
-Storage | 16/32/64GB
-MicroSD | Up to 64GB
-Battery | 2600 mAh
-Dimensions | 136.6 x 69.8 x 7.9 mm
-Display | 1080 x 1920 pixels, Super AMOLED
-Camera  | 13 MP, 4128 x 3096 pixels
-Release Date | April 2013
+AOSP device configuration for **unified variants**:
+- *GT-I9505*
+- *GT-I9505G*
+- *GT-I9507*
+- *GT-I9508*
+- *SCH-I545*
+- *SCH-R970*
+- *SGH-I337*
+- *SGH-M919*
+- *SGH-S970*
+- *SM-S975*
+- *SPH-L720*
 
-
-![Galaxy S4](http://wiki.cyanogenmod.org/images/thumb/6/6e/Jflte.png/321px-Jflte.png "Galaxy S4")
+Base code by **The CyanogenMod Project** - Copyright (c) 2013-2015

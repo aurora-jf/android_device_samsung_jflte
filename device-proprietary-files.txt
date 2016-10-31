@@ -7,7 +7,6 @@ bin/netmgrd
 bin/qcks
 bin/qmuxd
 bin/rild
-bin/rmt_storage
 lib/libatparser.so
 lib/libfactoryutil.so
 lib/libomission_avoidance.so
@@ -36,11 +35,9 @@ lib/libril-qcril-external.so
 lib/libril-qcril-hook-oem.so
 
 # Radio/QMI CDMA
-lib/libcnefeatureconfig.so
 lib/librmnetctl.so
 lib/libsec-ril.so
 lib/libxml.so
-lib/libstlport
 vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
 vendor/lib/libdsutils.so

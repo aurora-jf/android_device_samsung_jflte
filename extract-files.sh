@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
-#set -e
+set -e
 
-export DEVICE=jflte
+export DEVICE=jfltexx
 export VENDOR=samsung
 ./../jf-common/extract-files.sh $@

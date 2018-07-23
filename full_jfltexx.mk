@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+ 
 #
 # This file is the build configuration for a full Android
 # build for maguro hardware. This cleanly combines a set of
@@ -23,12 +23,13 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from jfltetmo device
-$(call inherit-product, device/samsung/jflte/device.mk)
+
+# Inherit from jfltexx device
+$(call inherit-product, device/samsung/jfltexx/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_jflte
-PRODUCT_DEVICE := jflte
+PRODUCT_NAME := full_jfltexx
+PRODUCT_DEVICE := jfltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := jflte
+PRODUCT_MODEL := GT-I9505

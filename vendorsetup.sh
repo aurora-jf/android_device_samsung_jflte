@@ -1,2 +1,1 @@
-add_lunch_combo aosp_jflte-eng
 add_lunch_combo aosp_jflte-userdebug

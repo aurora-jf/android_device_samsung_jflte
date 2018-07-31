@@ -6,7 +6,7 @@ $(call inherit-product, device/samsung/jflte/full_jflte.mk)
 # Inherit CAF stuff
 $(call inherit-product, vendor/custom/common.mk)
 
-PRODUCT_NAME := lineage_jflte
+PRODUCT_NAME := aosp_jflte
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
